@@ -1,0 +1,52 @@
+.heading {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.container {
+    width: 100%;
+}
+.company-data {
+    background-color: rgb(181, 239, 255);
+    border-radius: 2rem 0rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    word-break: break-all;
+    transition: 1s;
+    padding: 1rem;
+}
+.company-data:hover {
+    background-color: rgb(4, 206, 251);
+}
+.view-button{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(181, 239, 255);
+    color: black;
+    padding: 1rem;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.company_details{
+    border-radius: .25rem;
+    background-color: rgb(209, 165, 108); 
+    padding: 4rem;
+    text-transform: capitalize;
+    word-break: break-all;
+}
+.company_details h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+.company_details h5 {
+    font-weight: lighter;
+}
+.user-form {
+    border: 1px solid rgb(209, 165, 108);
+    border-radius: .25rem;
+    padding: 4rem;
+}
