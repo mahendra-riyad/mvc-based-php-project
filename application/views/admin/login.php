@@ -7,11 +7,11 @@
 </head>
 <body>
     <?php 
-       // $this->load->view("admin/header"); 
-        $cookieData = get_cookie('admin');
-        if(isset($cookieData)) {
-           redirect('http://localhost/assignment_mvc_php/index.php/Admin/dashboard');
-        }
+     
+       $cookieData = get_cookie('admin');
+       if(isset($cookieData)) {
+          redirect('http://localhost/assignment_mvc_php/index.php/Admin/dashboard');
+       } 
     ?>
    
     <div class="container">
